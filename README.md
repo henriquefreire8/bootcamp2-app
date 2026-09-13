@@ -1,7 +1,7 @@
 # Pokédex Simples
 
 ## Autor
-SEU NOME COMPLETO — Matrícula 0000000
+Henrique Cysne Furquim Freire — Matrícula 22605332
 
 ## Descrição
 Aplicação web simples que permite buscar um Pokémon pelo nome e ver sua imagem, altura e peso.
@@ -20,5 +20,5 @@ Aplicação web simples que permite buscar um Pokémon pelo nome e ver sua image
 2. Abra o arquivo `index.html` no navegador
 
 ## Links
-- **Aplicação no ar (GitHub Pages):** https://seu-usuario.github.io/bootcamp2-app/
-- **Repositório:** https://github.com/seu-usuario/bootcamp2-app
+- **Aplicação no ar (GitHub Pages):** https://henriquefreire8.github.io/bootcamp2-app/
+- **Repositório:** https://github.com/henriquefreire8/bootcamp2-app
