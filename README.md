@@ -4,7 +4,7 @@
 Henrique Cysne Furquim Freire — Matrícula 22605332
 
 ## Descrição
-Aplicação web simples que permite buscar um Pokémon pelo nome e ver sua imagem, altura e peso.
+Aplicação web simples que permite buscar um Pokémon pelo nome e ver sua imagem, altura e peso. Ideal para fãs de Pokémon que querem consultar informações rapidamente.
 
 ## API utilizada
 - PokeAPI — https://pokeapi.co/
