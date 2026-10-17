@@ -28,6 +28,12 @@ button:hover {
   background-color: #990000;
 }
 
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #333;
+  outline-offset: 2px;
+}
+
 #resultado {
   margin-top: 30px;
 }
@@ -45,6 +51,39 @@ button:hover {
 }
 
 .erro {
-  color: red;
+  color: #b00000;
   font-weight: bold;
+}
+
+.ok {
+  color: #1a7a1a;
+  font-weight: bold;
+}
+
+/* Meu time */
+#time {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.card-time {
+  width: 150px;
+  padding: 12px;
+}
+
+.card-time h3 {
+  margin: 0 0 8px;
+  text-transform: capitalize;
+}
+
+.card-time img {
+  width: 96px;
+}
+
+.card-time button {
+  padding: 6px 14px;
+  font-size: 14px;
 }
