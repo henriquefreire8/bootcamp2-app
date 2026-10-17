@@ -51,3 +51,4 @@ Dois containers da mesma imagem rodando ao mesmo tempo, nas portas 8080 e 8081:
 ![docker ps com dois containers](docker-ps.png)
 
 **Se eu tivesse 100 containers, como gerenciaria?** Subir e acompanhar 100 containers com `docker run` à mão seria inviável. Para isso existe o Kubernetes, um orquestrador de containers. Ele trabalha com um *cluster*, um conjunto de máquinas (nós) gerenciadas como se fossem uma só. A menor unidade é o *pod*, que agrupa um ou mais containers. Uma *réplica* é uma cópia idêntica de um pod: eu declaro quantas réplicas quero (por exemplo, 100) e o Kubernetes mantém esse número, recriando automaticamente os pods que caírem. Ele também distribui o tráfego entre as réplicas, aumenta ou diminui a quantidade de cópias conforme a demanda e atualiza versões aos poucos, sem derrubar a aplicação.
+Evidência da SQ4 (print no repositório): https://github.com/henriquefreire8/bootcamp2-app/blob/main/docker-ps.png
