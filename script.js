@@ -159,3 +159,9 @@ document.getElementById("botao-buscar").addEventListener("click", function () {
 
 // Carrega o time salvo assim que a página abre
 listarTime();
+
+document.getElementById("campo-busca").addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
+    document.getElementById("botao-buscar").click();
+  }
+});
