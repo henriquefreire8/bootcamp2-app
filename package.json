@@ -1,0 +1,24 @@
+{
+  "name": "bootcamp2-app",
+  "version": "1.0.0",
+  "description": "Henrique Cysne Furquim Freire — Matrícula 22605332",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquefreire8/bootcamp2-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/henriquefreire8/bootcamp2-app/issues"
+  },
+  "homepage": "https://github.com/henriquefreire8/bootcamp2-app#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
