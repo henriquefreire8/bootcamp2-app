@@ -50,7 +50,7 @@ A `main` está protegida: o push direto foi rejeitado com a mensagem
 "Changes must be made through a pull request".
 
 ### PR bloqueada pelo CI (PR #2)
-![PR bloqueada](docs/pr-bloqueada.png)
+![PR bloqueada pelo CI](allcheckshavefailed.webp)
 
 O teste foi quebrado de propósito, o check `testes` falhou e o botão de
 merge ficou bloqueado. Depois o teste foi corrigido e a PR foi mergeada.
