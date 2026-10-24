@@ -12,6 +12,10 @@ function formatarAltura(decimetros) {
   return (decimetros / 10).toFixed(1) + " m";
 }
 
+function formatarPeso(hectogramas) {
+  return (hectogramas / 10).toFixed(1) + " kg";
+}
+
 if (typeof module !== "undefined") {
-  module.exports = { validarEntrada, formatarNome, formatarAltura };
+  module.exports = { validarEntrada, formatarNome, formatarAltura, formatarPeso };
 }
