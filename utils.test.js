@@ -17,5 +17,5 @@ test("converte altura de decimetros para metros", () => {
 });
 
 test("converte peso de hectogramas para quilos", () => {
-  expect(formatarPeso(60)).toBe("6.0 kg");
+  expect(formatarPeso(60)).toBe("999 kg");
 });
